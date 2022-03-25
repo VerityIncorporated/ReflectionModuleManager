@@ -9,7 +9,8 @@ namespace ReflectionModules.Reflection
     public static class InitializeModules
     {
         public static readonly List<string> CategoryList = new List<string>();
-        public static readonly List<Object> ModulesList = new List<Object>();
+        public static readonly List<Object> ActivatedModulesList = new List<Object>();
+        public static readonly List<Object> NoneActiveModulesList = new List<Object>();
 
         public static void Init()
         {
@@ -22,7 +23,7 @@ namespace ReflectionModules.Reflection
                 var moduleEnabled = instance?.GetType().BaseType?.GetField("_moduleEnabled", BindingFlags.Instance | BindingFlags.Public);
                 if (moduleEnabled.GetValue(instance).Equals(true))
                 {
-                    ModulesList.Add(instance);
+                    ActivatedModulesList.Add(instance);
                     Program.Log("Module " + instance.GetType().Name + " Loaded", Color.DodgerBlue);
 
                     var categoryType = instance?.GetType().BaseType?.GetField("_categoryname", BindingFlags.Instance | BindingFlags.Public);
@@ -33,6 +34,7 @@ namespace ReflectionModules.Reflection
                 }
                 else
                 {
+                    NoneActiveModulesList.Add(instance);
                     Program.Log("Module " + instance.GetType().Name + " Not Loaded", Color.Red);
                 }
             }

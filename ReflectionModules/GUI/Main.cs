@@ -27,13 +27,21 @@ namespace ReflectionModules.GUI
                 CategoryButton.Click += Categories_Click;
                 categoryPanel.Controls.Add(CategoryButton);
             }
+
+            foreach (var module in Reflection.InitializeModules.NoneActiveModulesList)
+            {
+                var field = module?.GetType().BaseType?.GetField("button", BindingFlags.Instance | BindingFlags.Public);
+                var buttonField = field.GetValue(module);
+                var button = buttonField as Button;
+                derivedClassesPanel.Controls.Add(button);
+            }
         }
 
         private void Categories_Click(object sender, EventArgs e)
         {
             modulesPanel.Controls.Clear();
             var categoryButton = sender as Button;
-            foreach (var module in Reflection.InitializeModules.ModulesList) 
+            foreach (var module in Reflection.InitializeModules.ActivatedModulesList) 
             {
                 var categoryName = module?.GetType().BaseType?.GetField("_categoryname", BindingFlags.Instance | BindingFlags.Public);
                 if (categoryButton.Text != categoryName.GetValue(module).ToString()) continue;

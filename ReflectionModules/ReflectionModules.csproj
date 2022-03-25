@@ -55,8 +55,8 @@
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="ModuleHandler\Module.cs" />
-    <Compile Include="ModuleHandler\Modules\Utils\OpenForm.cs" />
-    <Compile Include="ModuleHandler\Modules\Utils\Autism.cs" />
+    <Compile Include="ModuleHandler\Modules\Test\NoneActiveTest.cs" />
+    <Compile Include="ModuleHandler\Modules\Test\ActiveTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\InitializeModules.cs" />

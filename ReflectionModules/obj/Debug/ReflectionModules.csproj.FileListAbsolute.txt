@@ -9,3 +9,14 @@ C:\Users\Verity\source\repos\ReflectionModules\ReflectionModules\obj\Debug\Refle
 C:\Users\Verity\source\repos\ReflectionModules\ReflectionModules\obj\Debug\ReflectionModules.pdb
 C:\Users\Verity\source\repos\ReflectionModules\ReflectionModules\bin\Debug\Colorful.Console.dll
 C:\Users\Verity\source\repos\ReflectionModules\ReflectionModules\obj\Debug\ReflectionModules.csproj.CopyComplete
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\bin\Debug\ReflectionModules.exe.config
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\bin\Debug\ReflectionModules.exe
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\bin\Debug\ReflectionModules.pdb
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\bin\Debug\Colorful.Console.dll
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\obj\Debug\ReflectionModules.csproj.AssemblyReference.cache
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\obj\Debug\ReflectionModules.GUI.Main.resources
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\obj\Debug\ReflectionModules.csproj.GenerateResource.cache
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\obj\Debug\ReflectionModules.csproj.CoreCompileInputs.cache
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\obj\Debug\ReflectionModules.csproj.CopyComplete
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\obj\Debug\ReflectionModules.exe
+C:\Users\Verity\Documents\GitHub\ReflectionModuleManager\ReflectionModules\obj\Debug\ReflectionModules.pdb
